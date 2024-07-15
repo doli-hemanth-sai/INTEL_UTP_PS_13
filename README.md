@@ -1,4 +1,4 @@
-![](src/LOGO.png)
+
  ## <div align="center">VEHICLE MOVEMENT ANALYSIS AND INSIGHT GENERATION USING EDGE AI - TEAM INNOVATE5 🚀</div>
 
 ### <div align="center">Intel Unnati Industrial Training Program 2024 </div>
@@ -106,24 +106,14 @@ Certainly! Here's a summarized version of the features implemented in your intel
 
 Example of License plate evaluation
 
-<div align="center">
-  <p>
-      <img width="100%" src="https://github.com/user-attachments/assets/92c331ba-827a-49f6-a3fb-338523cea8f4"></a></p>   
-</div>
+![](src/LICENSE_PLATE.png)
 
 Example of insight generation
 
-<div align="center">
-  <p>
-      <img width="100%" src="https://github.com/user-attachments/assets/92c331ba-827a-49f6-a3fb-338523cea8f4"></a></p>   
-</div>
-
+![](src/INSIGHT_GENERATION.png)
 Example of parking lot occupancy monitoring:
 
-<div align="center">
-  <p>
-      <img width="100%" src="https://github.com/user-attachments/assets/92c331ba-827a-49f6-a3fb-338523cea8f4"></a></p>   
-</div>
+![](src/PARKING.png)
 
 ### The Team ✨
 
