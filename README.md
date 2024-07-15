@@ -1,3 +1,4 @@
+![](src/LOGO.png)
  ## <div align="center">VEHICLE MOVEMENT ANALYSIS AND INSIGHT GENERATION USING EDGE AI - TEAM INNOVATE5 🚀</div>
 
 ### <div align="center">Intel Unnati Industrial Training Program 2024 </div>
