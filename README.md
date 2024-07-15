@@ -1,9 +1,4 @@
-<div align="center">
-  <p>
-      <img width="100%" src="https://github.com/user-attachments/assets/92c331ba-827a-49f6-a3fb-338523cea8f4"></a></p>   
-</div>
-  
-## <div align="center">VEHICLE MOVEMENT ANALYSIS AND INSIGHT GENERATION USING EDGE AI - TEAM INNOVATE5  🚀</div>
+ ## <div align="center">VEHICLE MOVEMENT ANALYSIS AND INSIGHT GENERATION USING EDGE AI - TEAM INNOVATE5 🚀</div>
 
 ### <div align="center">Intel Unnati Industrial Training Program 2024 </div>
 
@@ -13,6 +8,9 @@
 ### A powerful edge AI based tool for vehicle entry and exit checking, parking lot occupancy evaluation and insight generation and vehicle matching. 
 
 ## <div align="center">RUN STREAMLIT APP 📄</div>
+
+**CHECK OUT** [dashboard_here](https://dashboardvmsapp.streamlit.app/)
+
 <details open>
 <summary>Install</summary>
 
@@ -139,8 +137,8 @@ Example of parking lot occupancy monitoring:
 5. Pulluri Sreni - [21311A6645@sreenidhi.edu.in](mailto:21311A6645@sreenidhi.edu.in), CSE-AI&ML
 
 ### Credits 🎓
-Huge thanks to our internal mentor, **Dr. T.V. Rajinkanth sir** , Professor & Head, Department of CSE-AI&ML,SNIST, for his support in this project.
+Huge thanks to our internal mentor, **Dr. T.V. Rajinkanth**, Professor & Head, Department of CSE-AI&ML, SNIST, for his invaluable support throughout this project.
 
-This project also would not have been possible without the support of our external mentor, **Archana Vaidheeswaran**, who guided us throughout the duration of this project. 
+Special gratitude goes to our external mentor, **Archana Vaidheeswaran**, for her guidance and expertise which were instrumental in the successful execution of this project.
 
-Thanks to the Intel Unnati team for providing this opportunity for developing a solution to such an interesting and unique problem statement
+We are also grateful to the Intel Unnati team for providing us with the opportunity to develop a solution for such a fascinating and unique problem statement.
