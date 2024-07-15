@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning Model Input</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+
+        h1, h2 {
+            margin: 10px 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        #input-section {
+            margin-bottom: 30px;
+        }
+
+        #output-section {
+            margin-top: 30px;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        #imageOutput img, #videoOutput video {
+            margin-top: 20px;
+            max-width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Machine Learning Model Input</h1>
+    </header>
+
+    <main>
+        <section id="input-section">
+            <h2>Upload Image</h2>
+            <input type="file" id="imageInput" accept="image/*">
+            <button onclick="processImage()">Submit Image</button>
+
+            <h2>Upload Video</h2>
+            <input type="file" id="videoInput" accept="video/*">
+            <button onclick="processVideo()">Submit Video</button>
+        </section>
+
+        <section id="output-section">
+            <h2>Output</h2>
+            <div id="imageOutput"></div>
+            <div id="videoOutput"></div>
+        </section>
+    </main>
+
+    <script>
+        function processImage() {
+            const imageInput = document.getElementById('imageInput');
+            const imageOutput = document.getElementById('imageOutput');
+            const file = imageInput.files[0];
+
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    // Here you can add your machine learning model processing logic
+                    // For now, we are just displaying the image
+                    imageOutput.innerHTML = `<img src="${e.target.result}" alt="Uploaded Image">`;
+                }
+                reader.readAsDataURL(file);
+            } else {
+                alert("Please select an image file.");
+            }
+        }
+
+        function processVideo() {
+            const videoInput = document.getElementById('videoInput');
+            const videoOutput = document.getElementById('videoOutput');
+            const file = videoInput.files[0];
+
+            if (file) {
+                const url = URL.createObjectURL(file);
+                // Here you can add your machine learning model processing logic
+                // For now, we are just displaying the video
+                videoOutput.innerHTML = `<video controls><source src="${url}" type="${file.type}">Your browser does not support the video tag.</video>`;
+            } else {
+                alert("Please select a video file.");
+            }
+        }
+    </script>
+</body>
+</html>
